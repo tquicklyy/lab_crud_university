@@ -25,9 +25,21 @@ public class GlobalController {
             return "home-view";
         } catch (SQLException e) {
             model.addAttribute("connectInfo", new DB());
-            model.addAttribute("errorMessage", "Error connecting to the DB. Check entered info");
+            model.addAttribute("errorMessage", "Error connecting to the DB. Please check entered info");
             return "logging-menu-view";
         }
     }
+
+    @GetMapping("/guide-data")
+    public String showGuideData() { return "guide-data-view"; }
+
+    @GetMapping("/operational-data")
+    public String showOperationalData() { return "operational-data-view"; }
+
+    @GetMapping("/reports")
+    public String showReports() { return "reports-view"; }
+
+    @GetMapping("/about-program")
+    public String showAboutProgram() { return "about-program-view"; }
 
 }

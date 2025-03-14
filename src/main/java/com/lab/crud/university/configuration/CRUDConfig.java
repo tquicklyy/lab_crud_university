@@ -19,5 +19,4 @@ public class CRUDConfig {
         resolver.setSuffix(".jsp");
         return resolver;
     }
-
 }
