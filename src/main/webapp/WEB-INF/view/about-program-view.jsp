@@ -22,6 +22,10 @@
             height: 20px;
         }
 
+        button:hover {
+            background-color: #45A049;
+        }
+
         .labels {
             background-color: #888afd;
             width: 500px;
