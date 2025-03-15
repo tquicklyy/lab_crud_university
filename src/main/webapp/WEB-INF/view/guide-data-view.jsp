@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title> Main menu </title>
+    <title> Guide data </title>
 
     <style>
         body {
@@ -31,13 +31,14 @@
 </head>
 
 <body>
-<h1> Main menu </h1>
+<h1> List of guide data </h1>
 
     <div>
-        <a href="guide-data"> Guide data </a>
-        <a href="operational-data"> Operational data </a>
-        <a href="reports"> Reports </a>
-        <a href="about-program"> About program </a>
+        <a href="guide-data/coach/read"> Coach </a>
+        <a href="operational-data"> Team </a>
+        <a href="reports"> Sportsman </a>
+        <a href="about-program"> Sport type </a>
+        <a href="about-program"> Sports facility </a>
     </div>
 </body>
 

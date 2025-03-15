@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
-<%@ page isELIgnored="false" %>
+<%@ page isELIgnored="false" language="java" contentType="text/html charset=UTF-8" %>
 
 <html>
 
